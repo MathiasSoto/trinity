@@ -1,10 +1,11 @@
 {
-  "name": "trinity",
+  "name": "@mathiassoto/trinity",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/MathiasSoto/trinity.git",
   "scripts": {
-    "build": "tsup src/ --format esm,cjs --dts"
+    "build": "npx tsup --dts"
   },
   "keywords": [],
   "author": "Mathias Soto",
